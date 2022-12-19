@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: angular
-        image: ng-docker-k8s:1.0 # Image that will be used to containers in the cluster
+        image: acrlti22.azurecr.io/100000rup:87 # Image that will be used to containers in the cluster
         ports:
         - containerPort: 80 # The port that the container is running on in the cluster
 ---
